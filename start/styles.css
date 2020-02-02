@@ -21,28 +21,32 @@ html, body {
 }
 
 .r1-inner {
-    width: 90%;
-    background-color: green;
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+.home-main-nav {
+    padding-top: 25px;
 }
 
-.home-main-nav > ul {
-    
+.home-main-nav >ul {
+    list-style-type: none;
 }
 
 .home-main-nav > ul > li {
     display: inline;
-    font-size: 1.75cm;
+    font-size: 25px;
     
 }
 
 .home-main-nav > ul > li > a {
     color: white;
     text-decoration: none;
-    padding: 5px 1cm;
-    margin: 25px;
+    padding: 15px 1cm;
 }
 
 .home-main-nav > ul > li > a:hover {
-    
+    background-color: #FFF;
+    color: red;
 }
 /* end home page css */
